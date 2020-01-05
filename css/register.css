@@ -1,0 +1,83 @@
+#register{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: white;
+    padding:30px;
+    color:#6C7476;
+} 
+
+
+
+#registerContainer > h3{
+    margin: 15px 15px 15px 0;
+}
+
+#registerContainer{
+    border: 1px solid black;
+    padding:25px;
+}
+
+#butonReg{
+    background-color: #f19f1f;
+    padding: 15px;
+    color:white;
+    border:none;
+    border-radius: 0;
+    font-weight:600;
+    transition: background-color 0.5s ease;
+}
+
+#butonReg:hover{
+    background-color: #c57e0d;
+}
+
+#loginContainer{
+    margin-top:50px;
+    border: 1px solid black;
+    padding:25px;
+}
+
+#loginContainer > h1{
+    margin: 15px 15px 15px 0;
+}
+
+#butonLog{
+    background-color: #f19f1f;
+    padding: 15px;
+    color:white;
+    border:none;
+    border-radius: 0;
+    font-weight:600;
+    transition: background-color 0.5s ease;
+    margin-top:20px;
+}
+
+#butonLog:hover{
+    background-color: #c57e0d;
+}
+
+#logoutContainer{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+
+#logoutContainer > h1{
+    margin: 15px 15px 15px 0;
+}
+
+#logout,#culoare,#alege,#pozeAjax{
+    background-color: #f19f1f;
+    padding: 15px;
+    color:white;
+    border:none;
+    border-radius: 0;
+    font-weight:600;
+    transition: background-color 0.5s ease;
+    margin-top:20px;
+}
+
+#logout:hover,#culoare:hover,#alege:hover,#pozeAjax:hover{
+    background-color: #c57e0d;
+}
+
